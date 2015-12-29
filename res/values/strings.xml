@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">EXPENSIFY</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    
+       <string name="fullname">Full Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="registernewaccount">Register New Account</string>
+    <string name="already">Already has account! Login here</string>
+    <string name="todo">TODO</string>
+    <string name="login">Login</string>
+    <string name="newtoams">New to EXPENSIFY? Register here</string>
+    <string name="accounts">Accounts</string>
+    <string name="income">Income Category</string>
+    <string name="expenses">Expenses Category</string>
+    <string name="transaction">Transaction</string>
+    <string name="reports">Reports</string>
+    <string name="label1">Account Title</string>
+    <string name="label2">Description</string>
+    <string name="label3">Initial Balance</string>
+    <string name="label4">Current Balance</string>
+    <string name="create_ac">Create Account</string>
+    <string name="cate_title">Category Title</string>
+    <string name="cate_desc">Category Description</string>
+    <string name="cre_incate">Create Category</string>
+    <string name="dash_board">DashBoard</string>
+    <string name="expen">Expenses</string>
+    <string name="incom">Income</string>
+
+</resources>

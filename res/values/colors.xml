@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="navy_darker">#273848</color>
+    <color name="green_lighter">#1aad91</color>
+    <color name="navvy_lighter">#34495e</color>
+    <color name="background">#273848</color>
+    <color name="titlebar">#34495E</color>
+    <color name="textclolor">#19A98E</color>
+    <color name="mau_popup_list">#1B2B3A</color>
+    <color name="mau_trang">#FFFFFF</color>
+    <color name="mau_text_list">#398E7D</color>
+    <color name="transparent">#00000000</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="orange">#FFBB00</color>
+    <color name="lgreen">#99CC00</color>
+    <color name="lblue">#AA66CC</color>
+    <color name="skyb">#0099CC</color>
+    <color name="darkpink">#FF4444</color>
+    <color name="platinum">#E5E4E2</color>
+    <color name="cornyellow">#FFF380</color>
+    <color name="gray">#808080</color>
+    <color name="silver">#C0C0C0</color>
+    <color name="olive">#808000</color>
+    <color name="marun">#800000</color>
+    <color name="vamgray">#565051</color>
+    
+
+</resources>

@@ -1,0 +1,194 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true" 
+        android:background="@color/white"
+    android:padding="0dp"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity"
+    >  
+ <RelativeLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+ >
+
+  <include layout="@layout/layout_title_bar" />
+  
+  <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="80dp" >
+
+            <TextView
+                android:id="@+id/tvactitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/label1"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                  android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/actitle"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="27dp"
+                android:layout_weight="0.86"
+                android:background="@color/white"
+                android:backgroundTint="@color/white"
+                android:backgroundTintMode="src_over"
+                android:ems="10"
+                android:maxLength="10"
+                android:includeFontPadding="true"
+                android:inputType="text"
+                android:paddingLeft="5dp"
+                android:visibility="visible" >
+
+                <requestFocus />
+
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linearLayout1"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="30dp" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/label2"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/desc"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="32dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1.59"
+                android:maxLength="20"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="text"
+                android:paddingLeft="5dp" >
+
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/linearLayout2"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="30dp" >
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/label3"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/initi"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1.17"
+                android:background="@color/white"
+                android:maxLength="10"
+                android:ems="10"
+                android:inputType="number"
+                android:paddingLeft="5dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/linearLayout3"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="24dp" >
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/label4"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/curnt"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1.17"
+                android:maxLength="10"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="number"
+                android:paddingLeft="5dp" >
+            </EditText>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linearLayout4"
+            android:layout_marginTop="92dp"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/btncreate_ac"
+                android:layout_width="210dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/buttonshape"
+                android:gravity="center_vertical|center_horizontal|center"
+                android:text="@string/create_ac"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+   
+
+</RelativeLayout>
+</ScrollView>

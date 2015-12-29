@@ -1,0 +1,86 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true" 
+        android:background="#FFF"
+    android:padding="0dp"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity"
+    >  
+ <RelativeLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+ >
+
+  <include layout="@layout/layout_title_bar" />
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="75dp"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:padding="10dip" >
+
+            <!-- Email Label -->
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dip"
+                android:text="@string/cate_title"
+  android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+            <EditText
+               android:id="@+id/intitle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:maxLength="10"
+                android:layout_marginBottom="20dip"
+                android:layout_marginTop="5dip"
+                android:inputType="text"
+                android:singleLine="true" />
+            <!-- Password Label -->
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dip"
+                android:text="@string/cate_desc"
+                 android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+            <EditText
+                android:id="@+id/indesc"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:maxLength="20"
+                android:layout_marginBottom="20dip"
+                android:layout_marginTop="5dip"
+                android:inputType="text"
+                android:singleLine="true" />
+            <!-- Login button -->
+
+            <Button
+                android:id="@+id/btncre_incate"
+                android:layout_width="170dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dip"
+                android:text="@string/cre_incate"
+                android:textSize="20sp"
+                 android:background="@drawable/buttonshape"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+</RelativeLayout>
+</ScrollView>
